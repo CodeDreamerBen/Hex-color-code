@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hex color code</title>
+	</head>
+	<body>
+		<div id="background">
+			<h1>Choose your color</h1>
+			<input id="hex" type="color" oninput="getHexCode()">
+			<p>Your hex code:</p>
+			<input id="code" style="position: relative; bottom: 36px; left: 117px;" type="letters" readonly>
+		</div>
+        <div id="background">
+			<h1>Enter your hex code</h1>
+            <input oninput="getColor()" id="text" style="position: relative;" type="letters">
+            <p>Your color:</p>
+            <input style="position: relative; bottom: 35px; left: 100px;" id="color" type="color" disabled>
+		</div>
+	</body>
+</html>
